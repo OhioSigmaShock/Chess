@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History of Chess & Greatest Players</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .player {
+      background: #fff;
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .player img {
+      width: 180px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #fff;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>History of Chess & Greatest Players</h1>
+  </header>
+
+  <section>
+    <h2>The History of Chess</h2>
+    <p>
+      Chess is one of the oldest and most intellectual games in the world. Its origins can be traced back
+      nearly 1500 years to northern India, where it was known as <em>chaturanga</em>. The game spread to
+      Persia, then to the Islamic world, and eventually reached Europe in the Middle Ages. By the 15th
+      century, chess had evolved into the modern form we recognize today.
+    </p>
+  </section>
+
+  <section>
+    <h2>Greatest Chess Players in History</h2>
+
+    <div class="player">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Magnus_Carlsen_World_Chess_Champion_2018.jpg" alt="Magnus Carlsen">
+      <div>
+        <h3>Magnus Carlsen</h3>
+        <p>World Chess Champion from Norway, often regarded as one of the greatest players of all time. Known for his deep strategic understanding and versatility.</p>
+      </div>
+    </div>
+
+    <div class="player">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Garry_Kasparov_13.jpg" alt="Garry Kasparov">
+      <div>
+        <h3>Garry Kasparov</h3>
+        <p>World Champion from 1985 to 2000. Famous for his dynamic attacking style and dominance during his peak years.</p>
+      </div>
+    </div>
+
+    <div class="player">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Bobby_Fischer_1972.jpg" alt="Bobby Fischer">
+      <div>
+        <h3>Bobby Fischer</h3>
+        <p>American prodigy and World Champion in 1972. Revolutionized chess with his preparation and became an icon of the Cold War era.</p>
+      </div>
+    </div>
+
+    <div class="player">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Anatoly_Karpov_2009.jpg" alt="Anatoly Karpov">
+      <div>
+        <h3>Anatoly Karpov</h3>
+        <p>World Champion from 1975 to 1985. Known for his positional mastery and consistency, a legend of Soviet chess.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ♟️ passion for chess | 2025</p>
+  </footer>
+</body>
+</html>
