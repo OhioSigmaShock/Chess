@@ -1,26 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Old Website</title>
+  <title>History of Chess</title>
   <style>
     body {
-      background="stars.gif";
+      background: url('https://en.m.wikipedia.org/wiki/File:Modern_Fianchetto_Setup._Chess_game_Staunton_No._6.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    header {
+      background: black;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+    }
+    .banner {
+      text-align: center;
+      padding: 10px;
+      background: darkred;
+      font-size: 20px;
+    }
+    .menu {
+      background: darkblue;
+      padding: 10px;
+    }
+    .menu select {
+      font-size: 16px;
+      padding: 5px;
+    }
+    .content {
+      padding: 20px;
+      background: rgba(0,0,0,0.7);
+      margin: 20px;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
 
-  <marquee>Welcome to my cool site!!! 🚀✨</marquee>
+  <!-- Header -->
+  <header>
+    History of Chess Website
+  </header>
 
-  <h1>My Website</h1>
-  <p>This is my paragraph. <blink>Awesome, right?</blink></p>
+  <!-- Marquee -->
+  <marquee behavior="scroll" direction="left">Welcome to the world of Chess! ♟♞♜♛♚</marquee>
 
-  <img src="coolpic.jpg" width="300">
+  <!-- Banner -->
+  <div class="banner">
+    Learn about Chess: Its History, Greatest Players, and Openings
+  </div>
 
-  <frameset cols="50%,50%">
-    <frame src="menu.html">
-    <frame src="content.html">
-  </frameset>
+  <!-- Pulldown Menu -->
+  <div class="menu">
+    <label for="nav">Navigate:</label>
+    <select id="nav" onchange="location = this.value;">
+      <option value="#">--Select--</option>
+      <option value="#history">History</option>
+      <option value="#players">Greatest Players</option>
+      <option value="#openings">Popular Openings</option>
+    </select>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="content" id="history">
+    <h2>The History of Chess</h2>
+    <p>Chess originated in India around the 6th century, known as Chaturanga. It spread to Persia, becoming Shatranj, and then to Europe during the Middle Ages, where it evolved into the modern game we know today.</p>
+    <img src="https://en.m.wikipedia.org/wiki/File:Chess_piece_-_White_pawn.JPG" width="200">
+  </div>
+
+  <div class="content" id="players">
+    <h2>Five Greatest Chess Players</h2>
+    <ul>
+      <li>Garry Kasparov</li>
+      <li>Bobby Fischer</li>
+      <li>Magnus Carlsen</li>
+      <li>José Raúl Capablanca</li>
+      <li>Anatoly Karpov</li>
+    </ul>
+  </div>
+
+  <div class="content" id="openings">
+    <h2>Five Popular Openings</h2>
+    <ol>
+      <li>Ruy Lopez</li>
+      <li>Sicilian Defense</li>
+      <li>French Defense</li>
+      <li>Queen’s Gambit</li>
+      <li>King’s Indian Defense</li>
+    </ol>
+  </div>
+
+  <!-- Frame Example -->
+  <div class="content">
+    <h2>Watch a Chess Game (iframe)</h2>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/U4sk4Sq9a78" frameborder="0"></iframe>
+  </div>
+
+  <!-- Comment (just static placeholder) -->
+  <div class="content">
+    <h2>Comments</h2>
+    <!-- Comment Section Placeholder -->
+    <p><!-- This is where people would comment -->Comments go here!</p>
+  </div>
 
 </body>
 </html>
